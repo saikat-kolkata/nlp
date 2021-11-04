@@ -29,7 +29,7 @@ def return_prod_list(urls):
         'url': url,
         'pageType': 'product'
         }]
-        results = request_raw(query, api_key='9744b082b4f941e6aa9d030dfe0c5bc6')
+        results = request_raw(query, api_key='put_api_key_here')
         prod = results[0]['product']
         print(list(prod.values())[0])
         prod_dtls_list.append(list(prod.values())[0])
